@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashlight Kit - San Antonio Circuit Makers</title>
+    <title>Alpaca Kit - San Antonio Circuit Makers</title>
     <link rel="stylesheet" href="https://satxcircuitmakers.github.io/Main/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -13,30 +13,30 @@
 
     </div>    
     <div class="container">
-        <h1>Flashlight Kit</h1>
+        <h1>Alpaca Kit</h1>
         <p>
-            Welcome to the Flashlight Kit resource page! Here, you'll find everything you need to assemble and understand your soldering kit flashlight.
+            Welcome to the Alpaca Kit resource page! Here, you'll find everything you need to assemble and understand your soldering Alpaca kit.
         </p>
 
         <!-- Section 1: Instructions -->
         <div class="step">
             <h2>Instructions</h2>
-            <img src="images/flashlight-complete.jpg" alt="Completed Flashlight">
-            <p>Follow the step-by-step guide to assemble your flashlight:</p>
+            <img src="images/alpaca-complete.jpg" alt="Completed Alpaca">
+            <p>Follow the step-by-step guide to assemble your Alpaca:</p>
             <ul>
-                <li><a href="https://satxcircuitmakers.github.io/FlashlightKit/instructions.pdf">Download Instructions (PDF)</a></li>
-                <li><a href="https://satxcircuitmakers.github.io/FlashlightKit/instructions.html">View Instructions Online</a></li>
+                <li><a href="https://satxcircuitmakers.github.io/AlpacaKit/instructions.pdf">Download Instructions (PDF)</a></li>
+                <li><a href="https://satxcircuitmakers.github.io/AlpacaKit/instructions.html">View Instructions Online</a></li>
             </ul>
         </div>
 
         <!-- Section 2: PCB Files -->
         <div class="step">
             <h2>PCB Files</h2>
-            <img src="images/flashlight-pcb.jpg" alt="Flashlight PCB">
+            <img src="images/alpaca-pcb.jpg" alt="Alpaca PCB">
             <p>Download the PCB design files for the flashlight kit:</p>
             <ul>
-                <li><a href="https://satxcircuitmakers.github.io/FlashlightKit/pcb-gerber.zip">Gerber Files (ZIP)</a></li>
-                <li><a href="https://satxcircuitmakers.github.io/FlashlightKit/pcb-schematic.pdf">Schematic (PDF)</a></li>
+                <li><a href="https://satxcircuitmakers.github.io/AlpacaKit/pcb-gerber.zip">Gerber Files (ZIP)</a></li>
+                <li><a href="https://satxcircuitmakers.github.io/AlpacaKit/pcb-schematic.pdf">Schematic (PDF)</a></li>
             </ul>
         </div>
 
@@ -45,9 +45,8 @@
             <h2>Additional Resources</h2>
             <p>Explore these resources to learn more about soldering and electronics:</p>
             <ul>
-                <li><a href="https://www.instructables.com/Basic-Soldering-Guide/">Basic Soldering Guide</a></li>
-                <li><a href="https://www.sparkfun.com/solderingguide">SparkFun Soldering Tutorial</a></li>
-                <li><a href="https://www.electronics-tutorials.ws/">Electronics Tutorials</a></li>
+                <li><a href="https://www.makerspaces.com/how-to-solder/">Makersspace's Basic Soldering Guide</a></li>
+                <li><a href="https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools">Adafruit's Soldering Tutorial</a></li>
             </ul>
         </div>
 
@@ -63,9 +62,11 @@
     </footer>
 
     <script>
-       $(function() {
-          $("#header").load("https://satxcircuitmakers.github.io/Main/site/header.html");
-       });
+        $(function(){
+          $("#header").load("https://satxcircuitmakers.github.io/Main/site/header.html",function(){
+            $('#header-subtitle').html('Alpaca Kit Resources');
+          });
+        });
     </script>
 </body>
 </html>
